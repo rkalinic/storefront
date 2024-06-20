@@ -1,0 +1,11 @@
+1. otvori vsc terminal
+2. utipkaj "pipenv shell"
+3. utipkaj "python manage.py runserver"
+4. u google otvori adresu http://127.0.0.1:8000/playground/hello/
+5. za svaku novu aplikaciju:
+ 	- python manage.py startapp "ime_aplikacije"
+	- dodat naziv aplikacije u datoteku settings.py pod INSTALLED_APPS (CTRL+t)
+6. migracije:
+	- "py manage.py makemigrations" za kreiranje migracije
+	- "py manage.py migrate" za prihvacanje migracije
+	- "py manage.py migrate store 0003" -> obriši kod i migraciju 0004 
