@@ -1,3 +1,13 @@
+"django-admin startproject naziv_projekta ." -> pokretanje novog projekta
+
+"pip show django" #provjera je li django instaliran
+"pip install django" / "pipenv install django"
+Ctrl+shift+P -> Python: Select Interpreter -> odaberi (uglavnom venv)
+
+
+
+
+
 1. otvori vsc terminal
 2. utipkaj "pipenv shell"
 3. utipkaj "python manage.py runserver"
